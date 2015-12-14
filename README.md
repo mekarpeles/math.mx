@@ -4,6 +4,10 @@ Towards a comprehensive graph of mathematical domains and topics.
 
 Math.mx (mathematics) is a zoomable d3 treegraph of hierarchical mathematical topics (a navigatable taxonomy of math). It's goal is to give one a holistic mechanism for exploring all of math, to learn what they don't know, to discover and see how fields are related, and to contribute/associate resources to help others better undestand each topic.
 
+## Running JS-Only
+
+`python -m SimpleHTTPServer 8000 index.html`
+
 ## Background
 
 - Here's my [1st announcement of math.mx on facebook + goals](https://www.facebook.com/michael.karpeles/posts/10102140608410450)
