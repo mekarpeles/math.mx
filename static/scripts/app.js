@@ -41,7 +41,7 @@ grandparent.append("text")
   .attr("y", 6 - margin.top)
   .attr("dy", ".75em");
 
-d3.json("/static/js/graph.json", function(root) {
+d3.json("/static/data/math.json", function(root) {
   initialize(root);
   accumulate(root);
   layout(root);
