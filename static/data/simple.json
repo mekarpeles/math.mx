@@ -1,0 +1,81 @@
+var data = {
+    "children": [
+        {
+            "id": "A1",
+            "name": "Level A Node 1",
+            "children": [
+                {
+                    "id": "A1_B1",
+                    "name": "Level B Node 1 (parent A1)",
+                    "children": [
+                        {
+                            "id": "B1_C1",
+                            "name": "LEAF: Level C Node 1 (parent B1)",
+                            "value": 100
+                        },
+                        {
+                            "id": "B1_C2",
+                            "name": "LEAF: Level C Node 2 (parent B1)",
+                            "value": 100
+                        },
+                        {
+                            "id": "B1_C3",
+                            "name": "LEAF: Level C Node 3 (parent B1)",
+                            "value": 100
+                        }
+                    ]
+                },
+                {
+                    "id": "A1_B2",
+                    "name": "Level B Node 2 (parent A1)",
+                    "children": [
+                        {
+                            "id": "B2_C1",
+                            "name": "LEAF: Level C Node 1 (parent B2)",
+                            "value": 100
+                        },
+                        {
+                            "id": "B2_C2",
+                            "name": "LEAF: Level C Node 2 (parent B2)",
+                            "value": 100
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "A2",
+            "name": "Level A Node 2",
+            "children": [
+                {
+                    "id": "A2_B3",
+                    "name": "Level B Node 3 (parent A2)",
+                    "children": [
+                        {
+                            "id": "B2_C4",
+                            "name": "LEAF: Level C Node 4 (parent B3)",
+                            "value": 100
+                        },
+                        {
+                            "id": "B2_C5",
+                            "name": "LEAF: Level C Node 5 (parent B3)",
+                            "value": 100
+                        }
+                    ]                
+                }
+            ]
+        },
+        {
+            "id": "A3",
+            "name": "Level A Node 3",
+            "children": [
+                {
+                    "id": "A3_B4",
+                    "name": "LEAF: Level B Node 4 (parent A3)",
+                    "value": 100
+                }
+            ]
+        }
+    ],
+    "name": "root"
+};
