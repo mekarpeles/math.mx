@@ -1,8 +1,8 @@
 # [Math.mx](http://math.mx)
 
-Towards a comprehensive graph of mathematical domains and topics. 
+Towards a comprehensive graph of mathematical domains and topics.
 
-Math.mx (mathematics) is a zoomable d3 treegraph of hierarchical mathematical topics (a navigatable taxonomy of math). It's goal is to give one a holistic mechanism for exploring all of math, to learn what they don't know, to discover and see how fields are related, and to contribute/associate resources to help others better undestand each topic.
+Math.mx (mathematics) is a zoomable tree map of hierarchical mathematical topics (a navigatable taxonomy of math). It's goal is to give one a holistic mechanism for exploring all of math, to learn what they don't know, to discover and see how fields are related, and to contribute/associate resources to help others better undestand each topic. Its data set is the American Mathematics Society (AMS) MSC2010 taxonomy classifications. 
 
 ## Running JS-Only
 
@@ -49,3 +49,9 @@ The objective of this repository is to outline a comprehensive graph
 track of which domains or principles I have converage (understanding), 
 and to attach/associate resources with, in order to evaluate and 
 effectively improve my holistic understanding.
+
+Imagine if we could map each rectangle to a color who saturation intensity represents our degree of mastery of the underlying topics/skills.
+
+This experiment could be extended such that, each box at the most zoomed setting directly maps to a wikipedia article containing e.g. equations. If/once one "checks" or asserts their understanding of the concepts of this article, the box becomes checked / colored. As you zoom out, the color of the box becomes the average saturation intensity of its children.
+
+At the top-most level, a map of our ignorance.
